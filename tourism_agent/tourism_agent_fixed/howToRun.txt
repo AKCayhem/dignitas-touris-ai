@@ -1,0 +1,4 @@
+pip install -r requirements.txt
+cp .env.example .env     # Fill in your free API keys
+python main.py --dry-run  # Test without publishing
+python main.py            # Go live!
